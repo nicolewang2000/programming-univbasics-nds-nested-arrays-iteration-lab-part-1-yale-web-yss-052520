@@ -6,7 +6,7 @@ def find_even_values(src)
   while row_count < src.count do 
     column_count = 0 
     while column_count < src[row_count].count do 
-      if 
+      if spice_rack[row_count][column_count] % 2 
     end 
   end 
 end
