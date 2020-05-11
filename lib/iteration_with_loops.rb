@@ -9,6 +9,7 @@ def find_even_values(src)
       if spice_rack[row_count][column_count] % 2 == 0 
         p spice_rack[row_count][column_count]
       end
+      column_count += 1 
     end 
   end 
 end
