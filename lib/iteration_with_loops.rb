@@ -8,7 +8,7 @@ def find_even_values(src)
     while column_count < src[row_count].count do 
       if spice_rack[row_count][column_count] % 2 == 0 
         p spice_rack[row_count][column_count]
-      
+      end
     end 
   end 
 end
